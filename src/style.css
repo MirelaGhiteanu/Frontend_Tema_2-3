@@ -1,0 +1,128 @@
+body{
+
+    background-image: url("bkg.jpg");
+    font-family: "Lucida Sans";
+    max-height: 1600px;
+    max-width: 1600px;
+}
+
+.but1{
+    position: relative;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #CCC;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 #777;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+}
+
+
+header{
+    position:sticky;
+    top:0;
+}
+
+
+
+a:link {
+    position: relative;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #CCC;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 #777;
+
+}
+
+
+a:visited {
+    color: black;
+}
+
+
+a:hover {
+    background-color: #BBB;
+}
+
+
+a:active {
+    top: 2px;
+    box-shadow: none;
+}
+
+@font-face {
+    font-family: 'HeadingFont';
+    src: url('Redressed.ttf');
+}
+
+
+nav ul{
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+
+    font-family: 'HeadingFont';
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+
+
+
+aside ul li{
+
+    padding: 14px;
+    display:block;
+
+}
+aside {
+    margin-top: 30px;
+    min-width: 250px;
+    max-width: 350px;
+}
+footer{
+    margin-top: 30px;
+}
+
+.container{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+main{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
